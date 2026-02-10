@@ -7,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import classification_report, accuracy_score, confusion_matrix
 
-df = pd.read_csv('Titanic-Dataset.csv')
+df = pd.read_csv('Vaishali Dataset.csv')
 
 df['Age'].fillna(df['Age'].median(), inplace=True)
 df['Fare'].fillna(df['Fare'].median(), inplace=True)
